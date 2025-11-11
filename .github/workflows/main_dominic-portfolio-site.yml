@@ -61,7 +61,8 @@ jobs:
         with:
           app-name: 'Dominic-Portfolio-Site'
           slot-name: 'Production'
-          package: ./dist
+          package: ./node-app
 
           
+
 
