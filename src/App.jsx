@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <div>
-        <h1>Dominic Portfolio Website</h1>
+        <h1>🚧 Dominic Portfolio Website 🚧</h1>
         <p>🚧 Under Construction 🚧</p>
       </div>
     </>
