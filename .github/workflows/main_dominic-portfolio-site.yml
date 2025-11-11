@@ -61,5 +61,6 @@ jobs:
         with:
           app-name: 'Dominic-Portfolio-Site'
           slot-name: 'Production'
-          package: .
+          package: ./dist
+
           
