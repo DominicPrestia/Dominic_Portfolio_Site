@@ -25,7 +25,7 @@ jobs:
 
       - name: npm install, build
         run: |
-          npm install
+          npm ci
           npm run build:azure
 
       - name: Upload artifact for deployment job
@@ -63,6 +63,7 @@ jobs:
           slot-name: 'Production'
           package: ./dist
           
+
 
 
 
