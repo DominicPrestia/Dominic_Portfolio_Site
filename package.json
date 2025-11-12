@@ -9,10 +9,10 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
-    "build:azure": "vite build --base=./",
-    "build:github": "vite build --base=/Dominic_Portfolio_Site/"
+    "build:azure": "vite build --base=/",
+    "build:github": "vite build --base=/Dominic_Portfolio_Site/",
+    "predeploy": "npm run build:github",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^19.2.0",
